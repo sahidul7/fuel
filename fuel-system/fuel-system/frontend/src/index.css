@@ -1,0 +1,32 @@
+:root {
+  --bg: #070d1a;
+  --bg2: #0d1628;
+  --bg3: #111f35;
+  --bg4: #162540;
+  --border: #1a2e4a;
+  --border2: #1f3a5f;
+  --accent: #00d4a0;
+  --accent-dim: rgba(0,212,160,.12);
+  --amber: #f5a623;
+  --amber-dim: rgba(245,166,35,.12);
+  --danger: #ef4444;
+  --danger-dim: rgba(239,68,68,.12);
+  --petrol: #60a5fa;
+  --petrol-dim: rgba(96,165,250,.12);
+  --octane: #fbbf24;
+  --octane-dim: rgba(251,191,36,.12);
+  --diesel: #34d399;
+  --diesel-dim: rgba(52,211,153,.12);
+  --text: #e2ebf8;
+  --text2: #7a9cc5;
+  --text3: #3d5a80;
+  --font: 'Syne', sans-serif;
+  --mono: 'IBM Plex Mono', monospace;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:var(--font); min-height:100vh; -webkit-font-smoothing:antialiased; }
+::-webkit-scrollbar { width:4px; height:4px; }
+::-webkit-scrollbar-track { background:var(--bg2); }
+::-webkit-scrollbar-thumb { background:var(--border2); border-radius:2px; }
+.leaflet-container { background:#0d1628 !important; }
+.leaflet-tile { filter:brightness(0.55) saturate(0.3) hue-rotate(190deg); }
